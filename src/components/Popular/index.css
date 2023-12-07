@@ -1,0 +1,26 @@
+.popular-movies-bg {
+  background-color: #181818;
+  padding-bottom: 24px;
+  min-height: 100vh;
+}
+
+.popular-movies-loader {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movies-responsive-width {
+  padding: 0px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .movies-responsive-width {
+    padding: 0% 11%;
+  }
+}

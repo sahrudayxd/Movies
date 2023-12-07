@@ -1,0 +1,139 @@
+.login-bg-container {
+  background: #131313;
+  min-height: 100vh;
+  padding: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-bg-container {
+    background-image: url('https://res.cloudinary.com/dtkwvlezz/image/upload/f_auto,q_auto/v1/Netflix/loginDesktopBackgroundImage');
+    background-size: cover;
+    padding: 48px;
+  }
+}
+
+.login-website-logo {
+  width: 100px;
+  height: 27px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-website-logo {
+    width: 180px;
+    height: 52px;
+    margin-left: 6%;
+  }
+}
+
+.form-container {
+  min-height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form {
+    max-width: 450px;
+    border-radius: 8px;
+    opacity: 0.8;
+    background: #0c0b10;
+    padding: 48px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+
+.login-title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-title {
+    align-self: center;
+    font-weight: 400;
+  }
+}
+
+.login-label-container {
+  width: 100%;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-label-container {
+    margin-top: 24px;
+  }
+}
+
+.login-label {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.12px;
+}
+
+.login-input {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 2px;
+  padding: 8px;
+  padding-left: 16px;
+  background: #333;
+  color: #e2e8f0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.sign-in-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  border-radius: 4px;
+  background: #e50914;
+  color: #fff;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 24px;
+  align-self: stretch;
+}
+
+@media screen and (min-width: 768px) {
+  .sign-in-button {
+    margin-top: 36px;
+    border-radius: 8px;
+  }
+}
+
+.login-failure-msg {
+  color: #dc2626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

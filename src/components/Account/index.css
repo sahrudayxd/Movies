@@ -1,0 +1,153 @@
+.account-container {
+  background: #181818;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.account-details {
+  flex-grow: 1;
+  background-color: #ffffff;
+  padding: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .account-details {
+    padding: 64px 12%;
+  }
+}
+
+.account-title {
+  color: #131313;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .account-title {
+    font-size: 36px;
+  }
+}
+
+.account-hr {
+  background-color: #cbd5e1;
+}
+
+.membership-details {
+  display: flex;
+}
+
+.membership {
+  color: #94a3b8;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  width: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  .membership {
+    font-size: 24px;
+    width: 170px;
+  }
+}
+
+.account-username {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .account-username {
+    font-size: 24px;
+  }
+}
+
+.account-password {
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .account-password {
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
+
+.plan-details {
+  display: flex;
+  align-items: center;
+}
+
+.plan-details-title {
+  color: #94a3b8;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  width: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  .plan-details-title {
+    font-size: 24px;
+    width: 170px;
+  }
+}
+
+.plan-type {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .plan-type {
+    font-size: 24px;
+  }
+}
+
+.resolution {
+  margin-left: 16px;
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 2px 4px;
+  border-radius: 2px;
+  border: 1px solid #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .resolution {
+    margin-left: 24px;
+    padding: 4px 8px;
+    font-size: 18px;
+  }
+}
+
+.logout-button-container {
+  margin: 48px 0px 24px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-logout-button {
+  padding: 8px 20px;
+  border-radius: 4px;
+  background: #e50914;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}

@@ -1,0 +1,54 @@
+.popular-search-movies {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-search-movies {
+    margin-left: 6px;
+    justify-content: start;
+  }
+}
+
+.popular-search-thumbnail {
+  max-width: 130px;
+  padding: 0px 6px;
+  padding-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-search-thumbnail {
+    max-width: none;
+    width: 24%;
+    margin-right: 1%;
+    margin-top: 16px;
+  }
+}
+
+.thumbnail-mobile-img {
+  width: 94px;
+  height: 120px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-mobile-img {
+    display: none;
+  }
+}
+
+.thumbnail-desktop-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-desktop-img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+  }
+}
